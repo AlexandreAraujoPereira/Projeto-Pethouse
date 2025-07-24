@@ -1,0 +1,198 @@
+body{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.header {
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+    
+
+.image-box {
+    background: #a89f72; /* Cor parecida com a da apresentação */
+    padding: 20px;
+}
+
+.image-box img {
+    width: 200%;
+    max-width: 1000px; /* Controla o tamanho da imagem */
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.footer {
+    background: rgb(17, 46, 25);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.navbar {
+position: fixed;
+top: 0;
+width: 100%;
+background: #333;
+color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+padding: 15px 0;
+z-index: 1000;
+}
+
+.navbar a {
+color: white;
+text-decoration: blue;
+padding: 10px 20px;
+transition: 0.3s;
+}
+
+.navbar a:hover {
+background: #555;
+}
+.navbar.logotipo {
+    height: 50px; /* ajusta o tamanho da logo */
+    margin-left: 15px;
+  }
+
+section {
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2rem;
+}
+
+
+
+
+
+.home { 
+    background-color:yellowgreen; 
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.cadastro {
+    background-image: url('https://img.freepik.com/vetores-premium/padrao-perfeito-para-pet-shop-com-fundo-azul-impressao-brilhante-para-roupas-ou-acessorios-para-caes_873979-199.jpg'); 
+    background-position: fixed;
+    background-size: 100% auto;
+    background-repeat: repeat;
+    padding-top: 60px;
+
+}
+.contato{
+    background-image: url('https://img.freepik.com/vetores-premium/padrao-perfeito-para-pet-shop-com-fundo-azul-impressao-brilhante-para-roupas-ou-acessorios-para-caes_873979-199.jpg'); 
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding-top: 60px;
+
+
+}
+.serviços{
+    background-image: url('https://img.freepik.com/vetores-premium/padrao-perfeito-para-pet-shop-com-fundo-azul-impressao-brilhante-para-roupas-ou-acessorios-para-caes_873979-199.jpg'); 
+    padding-top: 60px;
+    color: black;
+    gap:20px;
+    display: auto;
+}
+th {
+    background-color: #4CAF50; /* cor do cabeçalho */
+    color: white;
+    padding: 10px;
+  }
+
+  td {
+    background-color: white; /* cor das células */
+    padding: 10px;
+    text-align: center;
+  }
+
+table, th, td {
+    border: 1px solid black;
+  }
+.imgG{
+    display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+.serviços img{
+    border-radius: 12px;
+  
+    
+
+}
+
+.localização{
+  background-image: url('https://img.freepik.com/vetores-premium/padrao-perfeito-para-pet-shop-com-fundo-azul-impressao-brilhante-para-roupas-ou-acessorios-para-caes_873979-199.jpg'); 
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.hotelpet{
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('https://img.freepik.com/vetores-premium/padrao-perfeito-para-pet-shop-com-fundo-azul-impressao-brilhante-para-roupas-ou-acessorios-para-caes_873979-199.jpg');
+    display: grid;
+    place-items: center;
+
+}
+.form.p{
+  font-size: 1.3125rem;
+  font-weight: 700;
+  color:black;
+  margin-bottom: 5rem; 
+}
+form{
+padding-top: 60%;
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ width: 100%;
+ max-width: 28rem;
+ background-image: url('https://img.freepik.com/vetores-gratis/atraente-design-de-fundo-padrao-de-pegada-fofa_1017-49663.jpg');
+ padding: 4rem;
+ border-radius: 0.5rem;
+ box-shadow: 0 0 1.8rem rgba(9, 55, 141, 0.15);
+}
+
+
+input{
+ font-size: 1.185rem;
+ color: rgb(8, 4, 35);
+ padding: 1rem 0 0.5rem 0;
+ width: 100%;
+ border: none;
+ border-color: #2d62b7;
+ border-bottom-width: 1px;
+ border-bottom-style: dotted;
+ margin-bottom: 3rem;
+ transition: 0.15s linear;
+}
+
+button{
+ font-size: 0.8125rem;
+ line-height: 2rem;
+ font-weight: 700;
+ text-transform: uppercase;
+ width: 100%;
+ padding: 1rem 2rem;
+ cursor: pointer;
+ background: transparent;
+ color: black;
+ border: 1px solid currentColor;
+ border-color: black;
+ border-radius: 4px;
+ margin-top: 0.5rem;
+ transition: 0.25s;
+}
